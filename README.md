@@ -15,8 +15,8 @@
 * Run the migrations
 
 ```
-git clone https://github.com/vitorpvcampos/social-net-django.git
-cd social-net-django
+git clone https://github.com/vitorpvcampos/django-shop.git
+cd django-shop
 pip install pipenv
 pipenv install --dev
 python manage.py migrate
