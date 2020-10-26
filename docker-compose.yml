@@ -12,4 +12,4 @@ services:
       - POSTGRES_PASSWORD=dshop
       - POSTGRES_USER=dshop
     ports:
-      - 5435:5432
+      - 5432:5432
