@@ -13,3 +13,9 @@ services:
       - POSTGRES_USER=dshop
     ports:
       - 5432:5432
+  celery_broker:
+    container_name: djangoshop_celery_broker
+    image: rabbitmq:3.8.9
+    command: rabbitmq-server
+    ports:
+      - 5672:5672

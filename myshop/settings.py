@@ -125,3 +125,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CART_SESSION_ID = 'cart'
+
+# Celery config
+
+BROKER_URL = config('CLOUDAMQP_URL')
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
