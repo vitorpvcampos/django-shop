@@ -16,6 +16,7 @@ services:
   celery_broker:
     container_name: djangoshop_celery_broker
     image: rabbitmq:3.8.9
+    restart: unless-stopped
     command: rabbitmq-server
     ports:
       - 5672:5672
