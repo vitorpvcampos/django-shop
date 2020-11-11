@@ -3,3 +3,6 @@ DATABASE_URL=postgres://postgres:postgres@localhost/testdb
 DEBUG=False
 ALLOWED_HOSTS=localhost, 127.0.0.1
 CLOUDAMQP_URL=amqp://guest:guest@localhost:5672
+BRAINTREE_MERCHANT_ID = 'XXX'
+BRAINTREE_PUBLIC_KEY = 'XXX'
+BRAINTREE_PRIVATE_KEY = 'XXX'

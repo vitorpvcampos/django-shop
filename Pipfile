@@ -12,6 +12,7 @@ django = "*"
 dj-database-url = "*"
 pillow = "*"
 python-decouple = "*"
+braintree = "*"
 
 [requires]
 python_version = "3.8"
