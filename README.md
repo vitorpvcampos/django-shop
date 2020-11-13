@@ -20,12 +20,7 @@ cd django-shop
 pip install pipenv
 pipenv install --dev
 python manage.py migrate
-```
-### Testss
 
-##### Run the tests
-```
-python manage.py test -v 2
 ```
 
 #### PEP8 lint
