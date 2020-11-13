@@ -13,6 +13,7 @@ dj-database-url = "*"
 pillow = "*"
 python-decouple = "*"
 braintree = "*"
+weasyprint = "*"
 
 [requires]
 python_version = "3.8"
